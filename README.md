@@ -81,6 +81,7 @@ Many of the roles emphasize areas like data insights, marketing analytics, perfo
 The $650,000 salary is far above the rest of the listed roles, while the remaining top jobs fall more consistently within the $184,000–$336,500 range. This suggests that extremely high-paying analyst roles exist, but are likely uncommon and should be interpreted cautiously.
 
 ![Top Paying Jobs](image.png)
+
 *Graph Showcasing Data Analyst jobs with the top 10 annual salaries*
 
 ### 2. What skills are required for top-paying data analyst roles?
@@ -131,7 +132,8 @@ Beyond SQL, the most recurring skills include Python, Tableau, and R, suggesting
 - **High-paying analyst roles increasingly blend analytics with data infrastructure and business tools.**
 Skills like AWS, Azure, Snowflake, Databricks, Oracle, Power BI, Jira, and Confluence show that these roles often sit at the intersection of analysis, cloud/data systems, and cross-functional business operations. In other words, top-paying analysts are often expected to work beyond spreadsheets and dashboards alone.
 
-![Skill frequency for top paying jobs](image-2.png)
+![Skill Frequency for Top Paying Jobs](image-5.png)
+
 *Frequently requested skills across the highest-paying remote data analyst jobs*
 
 ### 3. What are the most in-demand skills for data analysts?
