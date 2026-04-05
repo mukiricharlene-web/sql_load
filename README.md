@@ -49,7 +49,7 @@ With the project foundation in place, the next step was getting into the actual 
 ### 1. What are the top-paying data analyst jobs?
 Money talks, and in this section, I wanted to hear exactly what the market was saying. This query focuses specifically on identifying the highest-paying remote data analyst roles, making it easier to see which opportunities sit at the top of the salary ladder. 
 
-
+**SQL QUERY**
 ```sql
 SELECT
     jpf.job_id,
@@ -86,6 +86,7 @@ The $650,000 salary is far above the rest of the listed roles, while the remaini
 
 After identifying the highest-paying remote data analyst jobs, the next step was to look under the hood and see which skills kept showing up across those roles. This part of the analysis focuses on the tools, programming languages, platforms, and business intelligence skills associated with high-paying analyst positions. 
 
+**SQL QUERY**
 ```sql
 
 WITH top_paying_jobs AS (
@@ -135,6 +136,7 @@ Skills like AWS, Azure, Snowflake, Databricks, Oracle, Power BI, Jira, and Confl
 
 High salary is great, but demand matters too. A skill can pay well in theory and still be useless if barely anyone is hiring for it. This part of the analysis focuses on identifying the skills that appear most frequently across data analyst job postings, giving a clearer picture of what employers are consistently asking for in the market.
 
+**SQL QUERY**
 ```sql
 
 SELECT
@@ -178,6 +180,7 @@ The strong presence of Tableau and Power BI suggests that the ability to turn da
 
 While demand tells you which skills keep your resume in circulation, salary tells you which skills are valued most highly by employers. This section focuses on the average salary associated with each skill across the top-paying roles, helping identify technical capabilities that maximize financial reward in the data analyst market.
 
+**SQL QUERY**
 ```sql
 
 SELECT
@@ -213,6 +216,7 @@ The dataset suggests that the highest-paying roles reward both programming/data 
 
 This final section combines demand and compensation to identify the skills that are not only frequently sought after but also command top salaries. By focusing on these optimal skills, aspiring analysts can maximize both job security and earning potential, giving them a clear roadmap for strategic career development.
 
+**SQL QUERY**
 ```sql
 WITH In_demand_skills AS (
     SELECT
