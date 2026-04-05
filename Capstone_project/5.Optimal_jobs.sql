@@ -39,7 +39,8 @@ WHERE
     job_demand_count > 10
 ORDER BY
     job_demand_count DESC,
-    avg_salary DESC;
+    avg_salary DESC
+LIMIT 5;
 
 /*The strongest combination of demand and salary is concentrated around core analytics skills such as SQL, Python, Tableau, R, and Power BI, making them the most strategically valuable tools for data analysts.
 SQL stands out as the single most important skill, with the highest job demand and a strong average salary, reinforcing its role as the foundation of modern data analysis.
